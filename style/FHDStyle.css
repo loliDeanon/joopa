@@ -1,0 +1,133 @@
+body{
+    background: #1E1A1A;
+}
+.question{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 70%;
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0.40);
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 15px;
+}
+.content{
+    left: 300px;
+    top: 50px;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    flex-shrink: 0; 
+    background: rgba(99, 89, 89, 0.40);
+    border-radius: 10px;
+}
+.rulers{
+    left: 30px;
+    top: 50px;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    flex-shrink: 0;
+    background: rgba(217, 217, 217, 0.40);
+    border-radius: 10px;
+    stroke-width: 1px;
+    stroke: #000;
+
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.answer{
+    position: absolute;
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0.40);
+    width: 100px;
+    height: 30px;
+    
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.answer:hover{
+    border-radius: 10px;
+    border: 3px solid #453B3B;
+    background: rgba(0, 0, 0, 0.40);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#answers{
+    position: relative;
+    width: 70%;
+    /* background-color: rgba(217, 217, 217, 0.40); */
+    height: 100px;
+    left: 50px;
+    top: 100px;
+}
+#answer1{
+
+}
+#answer2{
+    right: 0px;
+}
+#answer3{
+    bottom: 0px;
+}
+#answer4{
+    bottom: 0px;
+    right: 0px;
+}
+.true_answer{
+    background-color: rgba(97, 255, 0, 0.66);
+}
+.false_answer{
+    background-color: rgba(255, 0, 0, 0.60);
+}
+.theme{
+    position: absolute;
+    left: 35px;
+    top: 240px;
+    background-color: rgba(217, 217, 217, 0.40);
+    border-radius: 10px;
+    width: 100px;
+
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.line{
+    position: absolute;
+    background: #000;
+    width: 70%;
+    left: 50px;
+    height: 3px;    
+}
+#line1{
+    top: 80px;
+}
+#line2{
+    bottom: 80px;
+}
